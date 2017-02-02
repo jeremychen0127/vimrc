@@ -16,8 +16,8 @@ set wildmenu
 " mapping of <C-L> below)
 set hlsearch
 
-" Map jl to turn off highlighting until next search
-nnoremap jl :nohl<CR><C-L>
+" Map L to turn off highlighting until next search
+nnoremap L :nohl<CR><C-L>
 
 " Use case insensitive search, except when using capital letters
 set ignorecase
@@ -68,8 +68,8 @@ set laststatus=2
 " "press <Enter> to continue"
 set cmdheight=2
 
-" Use jp to toggle between 'paste' and 'nopaste'
-set pastetoggle=jp
+" Use P to toggle between 'paste' and 'nopaste'
+set pastetoggle=P
 
 " Map ji to leave insert mode
 inoremap ji <esc>
