@@ -68,8 +68,8 @@ set laststatus=2
 " "press <Enter> to continue"
 set cmdheight=2
 
-" Use P to toggle between 'paste' and 'nopaste'
-set pastetoggle=P
+" Use <F8> to toggle between 'paste' and 'nopaste'
+set pastetoggle=<F8>
 
 " Map ji to leave insert mode
 inoremap ji <esc>
