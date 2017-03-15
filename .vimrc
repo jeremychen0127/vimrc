@@ -88,3 +88,6 @@ nnoremap k gk
 
 "highlight OverLength ctermbg=grey ctermfg=black guibg=#592929
 "match OverLength /\%121v.\+/
+
+" Set the color of comments
+highlight Comment ctermfg=LightCyan
