@@ -27,3 +27,9 @@ alias llh='ls -lh'
 
 # alias ".." to command "cd .."
 alias ..='cd ..'
+
+# alias "rm" to have confirmation by default
+alias rm='/bin/rm -i'
+
+# alias diff to have colourful default
+alias diff='/usr/local/bin/colordiff'
