@@ -33,3 +33,6 @@ alias rm='/bin/rm -i'
 
 # alias diff to have colourful default
 alias diff='/usr/local/bin/colordiff'
+
+#alias PDFconcat to the python script
+alias PDFconcat='/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py'
